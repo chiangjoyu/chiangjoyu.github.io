@@ -6,45 +6,80 @@
   <title>我的簡易網站</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      background-color: #f0f0f0;
+      font-family: "Noto Sans TC", Arial, sans-serif;
+      background-color: #f7f7f7;
       text-align: left;
-      margin: 20px;
-      padding: 0;
-    }
-    h1 {
+      margin: 0;
+      padding: 20px 5%;
+      line-height: 1.8;
+      font-size: 20px;
       color: #333;
+    }
+
+    h1 {
+      text-align: center;
+      color: #222;
       margin-top: 20px;
+      font-size: 32px;
     }
+
     p {
-      color: #555;
-      max-width: 800px;
-      margin: 10px 0 30px;
+      margin: 16px 0 32px;
     }
+
+    .gallery {
+      width: 100%;
+      margin: 0 auto 40px;
+      text-align: center;
+    }
+
     .gallery img {
-      width: 60%;
-      max-width: 600px;
+      width: 90%;
+      height: auto;
       border-radius: 10px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
-      margin-bottom: 20px;
-      display: block;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+      margin-bottom: 25px;
+      display: inline-block;
     }
+
     .title {
       font-weight: bold;
-      font-size: 24px;
-      color: #222;
-      margin-top: 40px;
+      font-size: 26px;
+      color: #111;
+      margin-top: 50px;
+      text-align: center;
+    }
+
+    /* 新增：置中文字樣式 */
+    .center-text {
+      text-align: center;
+      font-size: 20px;
+      color: #333;
+      margin-top: 20px;
+      font-weight: 600;
+    }
+
+    footer {
+      text-align: center;
+      color: #777;
+      font-size: 16px;
+      margin-top: 60px;
+      padding-top: 20px;
+      border-top: 1px solid #ddd;
     }
   </style>
 </head>
 <body>
   <h1>入門票</h1>
+
   <div class="gallery">
-    <img src="https://www.fycdepaper.com/uploads/1/2/0/7/120759852/b-20220807-hr-title_orig.jpg" alt="入門票圖片1"><br>
-    <img src="https://www.fycdepaper.com/uploads/1/2/0/7/120759852/b-20220807-hr-01_orig.jpg" alt="入門票圖片2"><br>
-    <img src="https://www.fycdepaper.com/uploads/1/2/0/7/120759852/b-20220807-hr-02_orig.jpg" alt="入門票圖片3"><br>
+    <img src="https://www.fycdepaper.com/uploads/1/2/0/7/120759852/b-20220807-hr-title_orig.jpg" alt="入門票圖片1">
+    <img src="https://www.fycdepaper.com/uploads/1/2/0/7/120759852/b-20220807-hr-01_orig.jpg" alt="入門票圖片2">
+    <img src="https://www.fycdepaper.com/uploads/1/2/0/7/120759852/b-20220807-hr-02_orig.jpg" alt="入門票圖片3">
   </div>
+
   <p class="title">濟公活佛慈訓</p>
+
   <p>
     千錘百鍊　只為成至剛<br>
     出入死生　是在完責任<br>
@@ -62,35 +97,41 @@
     完聖志　成眾生　化萬難　入娑婆<br>
     必能至大至剛<br>
     題為「至大至剛」之標<br>
-	人人一張白紙 一面寫上「入門票」<br>
-	人人手上一張「入門票」<br>
-	徒兒們以為這張入門票是什麼票?<br>
-	電影票是嗎? 當然不是！ 是什麼票?<br>
-	來 翻至背面寫上「上天堂」<br>
-	第二寫上「成聖賢」<br>
-	第三寫上「修辦道」<br>
-	第四寫上「了愿立」<br>
-	第五寫上「修道完全」<br>
-	這五點寫上去<br>
-	這一張「入門票」就是告訴徒兒<br>
-	今生今世你們手上<br>
-	人人都有「同等機會的入門票」<br>
-	這一張入門票你怎麼用？<br>
-	你想要不要用？<br>
-	你會不會用？<br>
-	你能不能用？<br>
-	這幾點先是反問眾徒<br>
-	你們內心如何想？<br>
-	你們內心如何思考？<br>
-	修辦道珍貴的是你搭上了這一艘船<br>
-	你這一張入門票用或不用<br>
-	僅此一次機會 懂嗎？<br>
-	因此修辦道<br>
-	在於你的內心給自己如何期許<br>
-	你的內心明白不明白這一生一次的機會<br>
-	珍貴啊！<br>
-	        2022/07/03．光慧崇德佛院<br>
-			日本道場視訊壇主班<br>
+    人人一張白紙 一面寫上「入門票」<br>
+    人人手上一張「入門票」<br>
+    徒兒們以為這張入門票是什麼票?<br>
+    電影票是嗎? 當然不是！ 是什麼票?<br>
+    來 翻至背面寫上「上天堂」<br>
+    第二寫上「成聖賢」<br>
+    第三寫上「修辦道」<br>
+    第四寫上「了愿立」<br>
+    第五寫上「修道完全」<br>
+    這五點寫上去<br>
+    這一張「入門票」就是告訴徒兒<br>
+    今生今世你們手上<br>
+    人人都有「同等機會的入門票」<br>
+    這一張入門票你怎麼用？<br>
+    你想要不要用？<br>
+    你會不會用？<br>
+    你能不能用？<br>
+    這幾點先是反問眾徒<br>
+    你們內心如何想？<br>
+    你們內心如何思考？<br>
+    修辦道珍貴的是你搭上了這一艘船<br>
+    你這一張入門票用或不用<br>
+    僅此一次機會 懂嗎？<br>
+    因此修辦道<br>
+    在於你的內心給自己如何期許<br>
+    你的內心明白不明白這一生一次的機會<br>
+    珍貴啊！<br>
   </p>
+
+  <!-- 新增置中段落 -->
+  <div class="center-text">
+    2022/07/03．光慧崇德佛院<br>
+    日本道場視訊壇主班
+  </div>
+
+  <footer>© 2025 我的入門票網站 |</footer>
 </body>
 </html>
